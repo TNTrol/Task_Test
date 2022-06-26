@@ -3,3 +3,25 @@
 
 CMakeFiles/Task_Test.dir/main.cpp.o
  /home/tntrol/CLionProjects/Task_Test/main.cpp
+ /home/tntrol/CLionProjects/Task_Test/manager/container.h
+ /home/tntrol/CLionProjects/Task_Test/manager/unit.h
+ /home/tntrol/CLionProjects/Task_Test/manager/unit_manager.h
+ /home/tntrol/CLionProjects/Task_Test/manager/vec2.h
+ /home/tntrol/CLionProjects/Task_Test/manager/view.h
+CMakeFiles/Task_Test.dir/manager/unit.cpp.o
+ /home/tntrol/CLionProjects/Task_Test/manager/unit.cpp
+ /home/tntrol/CLionProjects/Task_Test/manager/unit.h
+ /home/tntrol/CLionProjects/Task_Test/manager/vec2.h
+CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.o
+ /home/tntrol/CLionProjects/Task_Test/manager/container.h
+ /home/tntrol/CLionProjects/Task_Test/manager/unit.h
+ /home/tntrol/CLionProjects/Task_Test/manager/unit_manager.cpp
+ /home/tntrol/CLionProjects/Task_Test/manager/unit_manager.h
+ /home/tntrol/CLionProjects/Task_Test/manager/vec2.h
+CMakeFiles/Task_Test.dir/manager/view.cpp.o
+ /home/tntrol/CLionProjects/Task_Test/manager/container.h
+ /home/tntrol/CLionProjects/Task_Test/manager/unit.h
+ /home/tntrol/CLionProjects/Task_Test/manager/unit_manager.h
+ /home/tntrol/CLionProjects/Task_Test/manager/vec2.h
+ /home/tntrol/CLionProjects/Task_Test/manager/view.cpp
+ /home/tntrol/CLionProjects/Task_Test/manager/view.h

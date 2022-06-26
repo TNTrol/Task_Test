@@ -89,17 +89,62 @@ CMakeFiles/Task_Test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_Test.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tntrol/CLionProjects/Task_Test/main.cpp -o CMakeFiles/Task_Test.dir/main.cpp.s
 
+CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.o: CMakeFiles/Task_Test.dir/flags.make
+CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.o: ../manager/unit_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tntrol/CLionProjects/Task_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.o -c /home/tntrol/CLionProjects/Task_Test/manager/unit_manager.cpp
+
+CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tntrol/CLionProjects/Task_Test/manager/unit_manager.cpp > CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.i
+
+CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tntrol/CLionProjects/Task_Test/manager/unit_manager.cpp -o CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.s
+
+CMakeFiles/Task_Test.dir/manager/unit.cpp.o: CMakeFiles/Task_Test.dir/flags.make
+CMakeFiles/Task_Test.dir/manager/unit.cpp.o: ../manager/unit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tntrol/CLionProjects/Task_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Task_Test.dir/manager/unit.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_Test.dir/manager/unit.cpp.o -c /home/tntrol/CLionProjects/Task_Test/manager/unit.cpp
+
+CMakeFiles/Task_Test.dir/manager/unit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_Test.dir/manager/unit.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tntrol/CLionProjects/Task_Test/manager/unit.cpp > CMakeFiles/Task_Test.dir/manager/unit.cpp.i
+
+CMakeFiles/Task_Test.dir/manager/unit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_Test.dir/manager/unit.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tntrol/CLionProjects/Task_Test/manager/unit.cpp -o CMakeFiles/Task_Test.dir/manager/unit.cpp.s
+
+CMakeFiles/Task_Test.dir/manager/view.cpp.o: CMakeFiles/Task_Test.dir/flags.make
+CMakeFiles/Task_Test.dir/manager/view.cpp.o: ../manager/view.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tntrol/CLionProjects/Task_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Task_Test.dir/manager/view.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_Test.dir/manager/view.cpp.o -c /home/tntrol/CLionProjects/Task_Test/manager/view.cpp
+
+CMakeFiles/Task_Test.dir/manager/view.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_Test.dir/manager/view.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tntrol/CLionProjects/Task_Test/manager/view.cpp > CMakeFiles/Task_Test.dir/manager/view.cpp.i
+
+CMakeFiles/Task_Test.dir/manager/view.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_Test.dir/manager/view.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tntrol/CLionProjects/Task_Test/manager/view.cpp -o CMakeFiles/Task_Test.dir/manager/view.cpp.s
+
 # Object files for target Task_Test
 Task_Test_OBJECTS = \
-"CMakeFiles/Task_Test.dir/main.cpp.o"
+"CMakeFiles/Task_Test.dir/main.cpp.o" \
+"CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.o" \
+"CMakeFiles/Task_Test.dir/manager/unit.cpp.o" \
+"CMakeFiles/Task_Test.dir/manager/view.cpp.o"
 
 # External object files for target Task_Test
 Task_Test_EXTERNAL_OBJECTS =
 
 Task_Test: CMakeFiles/Task_Test.dir/main.cpp.o
+Task_Test: CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.o
+Task_Test: CMakeFiles/Task_Test.dir/manager/unit.cpp.o
+Task_Test: CMakeFiles/Task_Test.dir/manager/view.cpp.o
 Task_Test: CMakeFiles/Task_Test.dir/build.make
 Task_Test: CMakeFiles/Task_Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tntrol/CLionProjects/Task_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Task_Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tntrol/CLionProjects/Task_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Task_Test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Task_Test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

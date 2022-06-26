@@ -169,6 +169,87 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_Test.dir/build.make CMakeFiles/Task_Test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+manager/unit.o: manager/unit.cpp.o
+
+.PHONY : manager/unit.o
+
+# target to build an object file
+manager/unit.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_Test.dir/build.make CMakeFiles/Task_Test.dir/manager/unit.cpp.o
+.PHONY : manager/unit.cpp.o
+
+manager/unit.i: manager/unit.cpp.i
+
+.PHONY : manager/unit.i
+
+# target to preprocess a source file
+manager/unit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_Test.dir/build.make CMakeFiles/Task_Test.dir/manager/unit.cpp.i
+.PHONY : manager/unit.cpp.i
+
+manager/unit.s: manager/unit.cpp.s
+
+.PHONY : manager/unit.s
+
+# target to generate assembly for a file
+manager/unit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_Test.dir/build.make CMakeFiles/Task_Test.dir/manager/unit.cpp.s
+.PHONY : manager/unit.cpp.s
+
+manager/unit_manager.o: manager/unit_manager.cpp.o
+
+.PHONY : manager/unit_manager.o
+
+# target to build an object file
+manager/unit_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_Test.dir/build.make CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.o
+.PHONY : manager/unit_manager.cpp.o
+
+manager/unit_manager.i: manager/unit_manager.cpp.i
+
+.PHONY : manager/unit_manager.i
+
+# target to preprocess a source file
+manager/unit_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_Test.dir/build.make CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.i
+.PHONY : manager/unit_manager.cpp.i
+
+manager/unit_manager.s: manager/unit_manager.cpp.s
+
+.PHONY : manager/unit_manager.s
+
+# target to generate assembly for a file
+manager/unit_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_Test.dir/build.make CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.s
+.PHONY : manager/unit_manager.cpp.s
+
+manager/view.o: manager/view.cpp.o
+
+.PHONY : manager/view.o
+
+# target to build an object file
+manager/view.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_Test.dir/build.make CMakeFiles/Task_Test.dir/manager/view.cpp.o
+.PHONY : manager/view.cpp.o
+
+manager/view.i: manager/view.cpp.i
+
+.PHONY : manager/view.i
+
+# target to preprocess a source file
+manager/view.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_Test.dir/build.make CMakeFiles/Task_Test.dir/manager/view.cpp.i
+.PHONY : manager/view.cpp.i
+
+manager/view.s: manager/view.cpp.s
+
+.PHONY : manager/view.s
+
+# target to generate assembly for a file
+manager/view.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task_Test.dir/build.make CMakeFiles/Task_Test.dir/manager/view.cpp.s
+.PHONY : manager/view.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -181,6 +262,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... manager/unit.o"
+	@echo "... manager/unit.i"
+	@echo "... manager/unit.s"
+	@echo "... manager/unit_manager.o"
+	@echo "... manager/unit_manager.i"
+	@echo "... manager/unit_manager.s"
+	@echo "... manager/view.o"
+	@echo "... manager/view.i"
+	@echo "... manager/view.s"
 .PHONY : help
 
 
