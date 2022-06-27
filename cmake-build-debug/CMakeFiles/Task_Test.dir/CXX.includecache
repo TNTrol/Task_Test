@@ -9,10 +9,6 @@
 /home/tntrol/CLionProjects/Task_Test/main.cpp
 iostream
 -
-math.h
-/home/tntrol/CLionProjects/Task_Test/math.h
-manager/container.h
-/home/tntrol/CLionProjects/Task_Test/manager/container.h
 manager/unit_manager.h
 /home/tntrol/CLionProjects/Task_Test/manager/unit_manager.h
 manager/view.h
@@ -26,19 +22,11 @@ cstdio
 cstdint
 -
 
-/home/tntrol/CLionProjects/Task_Test/manager/unit.cpp
-unit.h
-/home/tntrol/CLionProjects/Task_Test/manager/unit.h
-
 /home/tntrol/CLionProjects/Task_Test/manager/unit.h
 cstdint
 -
 vec2.h
 /home/tntrol/CLionProjects/Task_Test/manager/vec2.h
-
-/home/tntrol/CLionProjects/Task_Test/manager/unit_manager.cpp
-unit_manager.h
-/home/tntrol/CLionProjects/Task_Test/manager/unit_manager.h
 
 /home/tntrol/CLionProjects/Task_Test/manager/unit_manager.h
 vector
@@ -49,10 +37,6 @@ unit.h
 /home/tntrol/CLionProjects/Task_Test/manager/unit.h
 
 /home/tntrol/CLionProjects/Task_Test/manager/vec2.h
-
-/home/tntrol/CLionProjects/Task_Test/manager/view.cpp
-view.h
-/home/tntrol/CLionProjects/Task_Test/manager/view.h
 
 /home/tntrol/CLionProjects/Task_Test/manager/view.h
 math.h

@@ -17,6 +17,8 @@ std::vector<Unit *>::iterator UnitManager::end()
 UnitManager::UnitManager(size_t count_units)
 {
     m_pool = new Container<Unit>(count_units, count_units);
+    m_units.resize(count_units);
+    m_units.clear();
 }
 
 UnitManager::~UnitManager()
