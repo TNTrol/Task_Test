@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/Task_Test.dir/main.cpp.o CMakeFiles/Task_Test.dir/manager/unit_manager.cpp.o CMakeFiles/Task_Test.dir/manager/unit.cpp.o CMakeFiles/Task_Test.dir/manager/view.cpp.o -o Task_Test 
